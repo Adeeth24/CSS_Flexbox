@@ -1,0 +1,46 @@
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+box-sizing: border-box;
+}
+
+.flexbox{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+/* Whenever you want to change on x-axis we use justify-content */
+/* flex-direction : we can convert the rows and columns and also reverse it */
+.card{
+    width: 260px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 8px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+/*  ---------------------------- Navbar --------------------------- */
+.header{
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: black;
+}
+.logo{
+    
+    height: 20px;
+}
+.btn{
+    
+}
