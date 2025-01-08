@@ -6,11 +6,12 @@ box-sizing: border-box;
 
 .flexbox{
     margin-top: 60px;
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 20px;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 /* Whenever you want to change on x-axis we use justify-content */
 /* flex-direction : we can convert the rows and columns and also reverse it */
@@ -30,17 +31,34 @@ box-sizing: border-box;
 
 /*  ---------------------------- Navbar --------------------------- */
 .header{
-    border-bottom: 1px solid lightgray;
+    border-bottom: 5px solid rgba(120, 120, 120, 0.233);
+    
 }
 
 .navbar{
     padding: 10px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo{
-    
     height: 20px;
-}
+}   
 .btn{
-    
+    background-color: white;
+    color: black;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 14px;
+}
+.input{
+    width: 400px;
+    background-color: white;
+    color: Black;
+    padding: 14px 30px;
+    border-radius: 14px;
+    text-align: left;
+    border: none;
+    outline: none;
 }
